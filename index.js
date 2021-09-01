@@ -30,6 +30,7 @@ function calculateProfitAndLoss(initial, quantity, current){
             showMessage("No pain no gain, and no gain no pain")
         }
     } else {
+        bodyBackground.style.backgroundColor = "#595966";
         showMessage("Please fill out all fields.");
     }
 }
